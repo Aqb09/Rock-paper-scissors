@@ -1,0 +1,23 @@
+.container-1{
+    border: 1px solid blueviolet;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+
+.flex-box-container-1 {
+    display: flex;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-around;
+
+}
+
+.flex-box-container-1 div{
+    padding: 10px;
+    border: 1px solid blueviolet;
+    align-items: center;
+}
