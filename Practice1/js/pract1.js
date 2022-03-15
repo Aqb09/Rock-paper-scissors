@@ -1,6 +1,8 @@
 function ageof() {
     let age =prompt ('What year were you born?') ;
-    let ageInMonths= (2022-age); 
+    if (!age) age= new Date().getFullYear();
+    
+    let ageInMonths= (new Date().getFullYear() -age); 
     let h1= document.createElement('h1');
     let textResult= document.createTextNode('You are' +' '+ ageInMonths +' '+ 'years old !!');
     h1.setAttribute('id','ageof');
