@@ -4,6 +4,7 @@
     margin: auto;
     align-items: center;
     text-align: center;
+    padding: 25px;
    
 }
 
@@ -21,7 +22,7 @@
 .flex-box-container1 div{
     display: flex;
     padding: 10px;
-    border: 6px solid navy ;
+    border: 6px  navy ;
     align-items: center;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
     

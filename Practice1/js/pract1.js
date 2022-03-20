@@ -98,7 +98,22 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
     document.getElementById('flex-box-rps-div').appendChild(messageDiv);
     document.getElementById('flex-box-rps-div').appendChild(botDiv);
 
-
     
     
 }
+
+
+
+
+const arr = [[4,5,1,3],[13,27,18,26],[32,35,37,39],[1000,1001,857,1]]
+
+let arrr = [];
+
+
+for (let i = 0; i < arr.length; i++) {
+    
+    let maxArr= Math.max(...arr[i]);
+    arrr.push(maxArr);
+    
+}
+console.log(arrr);
